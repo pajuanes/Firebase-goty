@@ -4,6 +4,6 @@ import { GotyComponent } from './pages/goty/goty.component';
 
 export const routes: Routes = [
     { path: 'inicio', component: InicioComponent },
-    { path: 'goty', component: GotyComponent },
+    { path: 'firebase-goty', component: GotyComponent },
     { path: '**', pathMatch: 'full', redirectTo: 'inicio' }
 ];
