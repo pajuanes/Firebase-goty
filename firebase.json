@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "./dist/goty/browser",
+    "public": "./dist/Firebase-goty/browser",
     "ignore": [
       "firebase.json",
       "**/.*",
