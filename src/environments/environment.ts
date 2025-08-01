@@ -1,13 +1,17 @@
 export const environment = {
     production: false,
-    url: "http://localhost:5000/firestore-grafica-ee57a/us-central1",
+    url: "URL_TO_DEVELOPMENT_SERVER",
     firebaseConfig: {
-      apiKey: "AIzaSyC8Y6AmY4SnhZclGZ6IaOeMoWhZLElYEDY",
-      authDomain: "firestore-grafica-ee57a.firebaseapp.com",
-      databaseURL: "https://firestore-grafica-ee57a-default-rtdb.europe-west1.firebasedatabase.app",
-      projectId: "firestore-grafica-ee57a",
-      storageBucket: "firestore-grafica-ee57a.firebasestorage.app",
-      messagingSenderId: "215799993267",
-      appId: "1:215799993267:web:61ac2dfcf05ec09c3ab1c6"
+      apiKey: "API_KEY",
+      authDomain: "PROJECT_ID.firebaseapp.com",
+      // The value of `databaseURL` depends on the location of the database
+      databaseURL: "https://DATABASE_NAME.firebaseio.com",
+      projectId: "PROJECT_ID",
+      // The value of `storageBucket` depends on when you provisioned your default bucket (learn more)
+      storageBucket: "PROJECT_ID.firebasestorage.app",
+      messagingSenderId: "SENDER_ID",
+      appId: "APP_ID",
+      // For Firebase JavaScript SDK v7.20.0 and later, `measurementId` is an optional field
+      measurementId: "G-MEASUREMENT_ID",
     }
 };
